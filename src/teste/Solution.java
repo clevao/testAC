@@ -16,7 +16,7 @@ public class Solution {
         List<Integer> processorsTimeList = new ArrayList<Integer>();
         processorsTimeList.add(10);
         processorsTimeList.add(20);
-        processorsTimeList.add(5);
+        //processorsTimeList.add(5);
         
         List<Integer> tasksTimeList = new ArrayList<Integer>();
         tasksTimeList.add(2);
@@ -27,8 +27,8 @@ public class Solution {
         tasksTimeList.add(1);
         tasksTimeList.add(4);
         tasksTimeList.add(3);
-        tasksTimeList.add(3);
-        tasksTimeList.add(3);
+        //tasksTimeList.add(3);
+        //tasksTimeList.add(3);
         
         // Calula o tamanho máximo de cada grupo de combinações das tasks
         Integer groupSize = tasksTimeList.size() / processorsTimeList.size();
@@ -199,7 +199,7 @@ public class Solution {
 				if(subGroup.size() == groupSize) {
 					// Adiciona a combinação na lista
 					combinations.add(subGroup);
-					System.out.println(subGroup);
+					//System.out.println(subGroup);
 				}
 				
 				// Reinicia o grupo de combinação
