@@ -16,7 +16,7 @@ public class Solution {
         List<Integer> processorsTimeList = new ArrayList<Integer>();
         processorsTimeList.add(10);
         processorsTimeList.add(20);
-        //processorsTimeList.add(5);
+        processorsTimeList.add(5);
         
         List<Integer> tasksTimeList = new ArrayList<Integer>();
         tasksTimeList.add(2);
@@ -85,7 +85,7 @@ public class Solution {
         		if(maxTimeSubGroup > maxTimeGroup)
         			maxTimeGroup = maxTimeSubGroup;
         		
-        		System.out.println("- t: " + processorTime + ";  tasksIDs: " + tasksIDs + " tasksTimes: " + tasksTime + "; maxTime: " + maxTimeGroup);
+        		System.out.println("- t: " + processorTime + ";  tasksIDs: " + tasksIDs + " tasksTimes: " + tasksTime + "; maxTime: " + maxTimeSubGroup);
         	}
         	
         	if(minimunTime > maxTimeGroup || minimunTime == -1)
