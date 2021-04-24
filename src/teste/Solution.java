@@ -16,7 +16,7 @@ public class Solution {
         List<Integer> processorsTimeList = new ArrayList<Integer>();
         processorsTimeList.add(10);
         processorsTimeList.add(20);
-        processorsTimeList.add(5);
+        //processorsTimeList.add(5);
         
         List<Integer> tasksTimeList = new ArrayList<Integer>();
         tasksTimeList.add(2);
